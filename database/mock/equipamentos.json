@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nome": "Notebook Dell Latitude 5420",
+    "tipo": "Notebook",
+    "marca": "Dell",
+    "modelo": "Latitude 5420",
+    "especificacoes": "i5, 16GB RAM, 512GB SSD",
+    "numero_serie": "DL5420-ABC123",
+    "patrimonio": "PAT-0001",
+    "departamento": "TI",
+    "localizacao": "Sala 101",
+    "status": "Em uso",
+    "data_aquisicao": "2024-06-10",
+    "garantia_fim": "2027-06-10",
+    "fornecedor": "Fornecedor XPTO",
+    "valor": 6500,
+    "criado_em": "2025-01-02T12:00:00Z"
+  },
+  {
+    "id": 2,
+    "nome": "Monitor LG 27UL500",
+    "tipo": "Monitor",
+    "marca": "LG",
+    "modelo": "27UL500",
+    "especificacoes": "27\" 4K IPS",
+    "numero_serie": "LG27-XYZ789",
+    "patrimonio": "PAT-0002",
+    "departamento": "Financeiro",
+    "localizacao": "Sala 205",
+    "status": "Disponível",
+    "data_aquisicao": "2023-11-05",
+    "garantia_fim": "2026-11-05",
+    "fornecedor": "Fornecedor ABC",
+    "valor": 1200,
+    "criado_em": "2025-01-03T15:00:00Z"
+  }
+]

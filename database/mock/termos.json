@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "tipo": "Entrega",
+    "equipamento_id": 1,
+    "equip_nome": "Notebook Dell Latitude 5420",
+    "usuario_responsavel": "João Silva",
+    "observacoes": "Entrega para novo colaborador",
+    "assinado": 0,
+    "codigo": "T-0001",
+    "data_geracao": "2025-01-06T11:00:00Z"
+  },
+  {
+    "id": 2,
+    "tipo": "Devolução",
+    "equipamento_id": 2,
+    "equip_nome": "Monitor LG 27UL500",
+    "usuario_responsavel": "Maria Souza",
+    "observacoes": "Devolução após troca de setor",
+    "assinado": 1,
+    "codigo": "T-0002",
+    "data_geracao": "2025-01-08T08:30:00Z",
+    "assinado_em": "2025-01-08T09:00:00Z"
+  }
+]

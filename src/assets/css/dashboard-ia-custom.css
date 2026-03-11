@@ -1,0 +1,146 @@
+/* dashboard-ia-custom.css */
+/* Estilos personalizados para o Dashboard IA */
+.nav-item:has([href="dashboard-ia.php"]) {
+    position: relative;
+}
+
+.nav-item:has([href="dashboard-ia.php"]) .nav-link {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    border-radius: 8px;
+    margin: 2px 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item:has([href="dashboard-ia.php"]) .nav-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.nav-item:has([href="dashboard-ia.php"]) .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.nav-item:has([href="dashboard-ia.php"]) .nav-link:hover::before {
+    left: 100%;
+}
+
+.nav-item:has([href="dashboard-ia.php"]) .nav-icon {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.nav-item:has([href="dashboard-ia.php"]) .badge {
+    background: #28a745 !important;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from { box-shadow: 0 0 5px -5px #28a745; }
+    to { box-shadow: 0 0 5px 5px rgba(40, 167, 69, 0.3); }
+}
+
+/* Adicionar ícone de IA animado */
+.nav-item:has([href="dashboard-ia.php"]) .nav-icon::after {
+    content: '✨';
+    position: absolute;
+    font-size: 8px;
+    top: -2px;
+    right: -2px;
+    animation: sparkle 1.5s infinite;
+}
+
+@keyframes sparkle {
+    0%, 100% { opacity: 0; transform: scale(0.5); }
+    50% { opacity: 1; transform: scale(1); }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .nav-item:has([href="dashboard-ia.php"]) .nav-link {
+        margin: 2px 4px;
+    }
+}
+
+/* Efeito especial para o item do menu IA */
+.nav-item:has([href="dashboard-ia.php"]) {
+    position: relative;
+    animation: slideInRight 0.5s ease-out;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Efeito de brilho neon no hover */
+.nav-item:has([href="dashboard-ia.php"]) .nav-link:hover {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #ec4899 100%);
+    box-shadow: 
+        0 0 20px rgba(79, 70, 229, 0.6),
+        0 0 40px rgba(124, 58, 237, 0.4),
+        0 0 60px rgba(236, 72, 153, 0.2);
+    transform: translateY(-3px) scale(1.02);
+}
+
+/* Animação do badge IA */
+.nav-item:has([href="dashboard-ia.php"]) .badge {
+    animation: float 2s ease-in-out infinite;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-3px); }
+}
+
+/* Efeito de scanner futurista */
+.nav-item:has([href="dashboard-ia.php"]) .nav-link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        rgba(255,255,255,0.1) 50%, 
+        transparent 100%);
+    animation: scanner 3s infinite;
+}
+
+@keyframes scanner {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+
+
+html[data-menu-size="sm-hover"] .main-nav .logo-box { text-align: center; }
+html[data-menu-size="sm-hover-active"] .main-nav .logo-box { text-align: center; }
+html[data-menu-size="sm-hover"] .main-nav .logo-box,
+html[data-menu-size="sm-hover-active"] .main-nav .logo-box { padding: 0; }
+.main-nav .logo-box a { display: flex; justify-content: center; align-items: center; }
+.main-nav .logo-box { display: flex; justify-content: center; align-items: center; height: var(--bs-topbar-height); }
+.main-nav .logo-box .logo-lg { display: block; margin: 0 auto; }

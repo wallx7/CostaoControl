@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "entidade": "termo",
+    "entidade_id": 2,
+    "caminho_arquivo": "http://localhost:8000/assets/uploads/termos/assinaturas/2/colab_sample.png",
+    "nome_original": "colab_sample.png",
+    "tipo_mime": "image/png",
+    "criado_em": "2025-01-08T09:00:10Z"
+  }
+]

@@ -1,0 +1,91 @@
+<?php include 'partials/main.php' ?>
+
+
+<head>
+     <!-- Title Meta -->
+     <meta charset="utf-8" />
+     <title>Lock Screen | Larkon - Responsive Admin Dashboard Template</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="A fully responsive premium admin dashboard template" />
+     <meta name="author" content="Techzaa" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+     <!-- App favicon -->
+     <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+     <!-- Vendor css (Require in all Page) -->
+     <link href="assets/css/vendor.min.css" rel="stylesheet" type="text/css" />
+
+     <!-- Icons css (Require in all Page) -->
+     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+     <!-- App css (Require in all Page) -->
+     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+     <!-- Theme Config js (Require in all Page) -->
+     <script src="assets/js/config.js"></script>
+</head>
+
+<body class="vh-100">
+
+     <div class="d-flex flex-column h-100 p-3">
+          <div class="d-flex flex-column flex-grow-1">
+               <div class="row h-100">
+                    <div class="col-xxl-7">
+                         <div class="row justify-content-center h-100">
+                              <div class="col-lg-6 py-lg-5">
+                                   <div class="d-flex flex-column h-100 justify-content-center">
+                                        <div class="auth-logo mb-4">
+                                             <a href="index.php" class="logo-dark">
+                                                  <img src="assets/images/logoC.png" height="24" alt="logo">
+                                             </a>
+
+                                             <a href="index.php" class="logo-light">
+                                                  <img src="assets/images/logoC.png" height="24" alt="logo">
+                                             </a>
+                                        </div>
+
+                                        <h2 class="fw-bold fs-24">Hi ! Gaston</h2>
+
+                                        <p class="text-muted mt-1 mb-4">Enter your password to access the admin.</p>
+
+                                        <div class="mb-5">
+                                             <form action="index.php" class="authentication-form">
+                                                  <div class="mb-3">
+                                                       <label class="form-label visually-hidden" for="example-password">Password</label>
+                                                       <input type="text" id="example-password" class="form-control" placeholder="Enter your password">
+                                                  </div>
+                                                  <div class="mb-1 text-center d-grid">
+                                                       <button class="btn btn-primary" type="submit">Sign In</button>
+                                                  </div>
+                                             </form>
+                                        </div>
+
+                                        <p class="text-danger text-center">Not you? return<a href="auth-signup.php" class="text-dark fw-bold ms-1">Sign Up</a></p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-xxl-5 d-none d-xxl-flex">
+                         <div class="card h-100 mb-0 overflow-hidden">
+                              <div class="d-flex flex-column h-100">
+                                   <img src="assets/images/small/img-10.jpg" alt="" class="w-100 h-100">
+                              </div>
+                         </div> <!-- end card -->
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!-- Vendor Javascript (Require in all Page) -->
+     <script src="assets/js/vendor.js"></script>
+
+     <!-- App Javascript (Require in all Page) -->
+     <script src="assets/js/app.js"></script>
+
+
+</body>
+
+</html>

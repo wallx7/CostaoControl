@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "usuario_id": 1,
+    "acao": "create",
+    "entidade": "equipamento",
+    "entidade_id": 1,
+    "mensagem": "Cadastro inicial de equipamento Notebook Dell Latitude 5420",
+    "criado_em": "2025-01-05T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "usuario_id": 1,
+    "acao": "assign_task",
+    "entidade": "checklist",
+    "entidade_id": 1,
+    "mensagem": "{\"to_id\":1,\"to_name\":\"Administrador\",\"reason\":\"Checklist de entrega\",\"note\":\"Executar verificação padrão\"}",
+    "criado_em": "2025-01-06T10:15:00Z"
+  },
+  {
+    "id": 3,
+    "usuario_id": 1,
+    "acao": "termoAdd",
+    "entidade": "termo",
+    "entidade_id": 1,
+    "mensagem": "Termo de Entrega gerado para Notebook Dell Latitude 5420",
+    "criado_em": "2025-01-06T11:00:00Z"
+  },
+  {
+    "id": 4,
+    "usuario_id": 1,
+    "acao": "update",
+    "entidade": "equipamento",
+    "entidade_id": 2,
+    "mensagem": "Status alterado para Disponível",
+    "criado_em": "2025-01-07T14:30:00Z"
+  }
+]

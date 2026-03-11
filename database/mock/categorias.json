@@ -1,0 +1,4 @@
+[
+  { "id": 1, "nome": "Notebooks", "icon": "solar:laptop-bold-duotone", "criado_em": "2025-01-01T00:00:00Z" },
+  { "id": 2, "nome": "Monitores", "icon": "solar:monitor-bold-duotone", "criado_em": "2025-01-01T00:00:00Z" }
+]

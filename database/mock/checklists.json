@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "equipamento_id": 1,
+    "tipo": "entrada",
+    "itens_json": {
+      "av_kaspersky": 1,
+      "remote_rustdesk": 1,
+      "updates_ok": 1,
+      "encryption_ok": 0,
+      "backup_ok": 1,
+      "asset_tagged": 1,
+      "notes": "Criptografia pendente",
+      "updated_by": "Administrador",
+      "scheduled_at": null
+    },
+    "status_final": "Pendente",
+    "criado_em": "2025-01-06T10:30:00Z"
+  }
+]

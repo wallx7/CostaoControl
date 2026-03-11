@@ -1,0 +1,4 @@
+[
+  { "id": 1, "nome": "João Silva", "email": "joao@empresa.com", "cpf": "00000000191", "departamento": "TI", "cargo": "Analista", "ativo": 1, "criado_em": "2025-01-02T10:00:00Z" },
+  { "id": 2, "nome": "Maria Souza", "email": "maria@empresa.com", "cpf": "00000000272", "departamento": "Financeiro", "cargo": "Assistente", "ativo": 1, "criado_em": "2025-01-02T11:00:00Z" }
+]
